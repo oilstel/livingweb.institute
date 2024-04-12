@@ -9,6 +9,7 @@ body {
     color: #000;
     padding: 20px;
     background-color: #fff;
+    /* background: linear-gradient(to right, white 90%, yellow 100%); */
 }
 
 main {
