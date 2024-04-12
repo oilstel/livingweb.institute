@@ -27,10 +27,32 @@ h2 {
     font-weight: normal;
     color: #000;
     margin-top: 40px;
+    color: #1271de;
 }
 p {
     font-size: 16px;
     line-height: 20px;
+}
+figure {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0;
+    margin: 40px 0;
+    background-color: rgb(213, 237, 241);
+    padding: 10px;
+    border-radius: 3px;
+}
+figcaption {
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    color: gray;
+    margin-top: 10px;
+    max-width: 300px;
+}
+img {
+    width: 100%;
 }
 nav {
     display: flex;
@@ -54,6 +76,7 @@ nav a {
 nav a:hover {
     background-color: rgba(0, 14, 204, 0.05);
     border-color: #00c;
+    border-color: #3894FF;
 }
 nav a span {
     font-size: 10px;
@@ -61,6 +84,7 @@ nav a span {
 }
 a {
     color: #00c;
+    color: #1271de;
 }
 #logo {
     width: 100%;
